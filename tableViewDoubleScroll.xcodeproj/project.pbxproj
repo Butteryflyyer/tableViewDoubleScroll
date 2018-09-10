@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB5C26321467BC300FDBEDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C26221467BC300FDBEDC /* AppDelegate.m */; };
+		BDB5C26621467BC300FDBEDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C26521467BC300FDBEDC /* ViewController.m */; };
+		BDB5C26921467BC300FDBEDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB5C26721467BC300FDBEDC /* Main.storyboard */; };
+		BDB5C26B21467BC500FDBEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB5C26A21467BC500FDBEDC /* Assets.xcassets */; };
+		BDB5C26E21467BC500FDBEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB5C26C21467BC500FDBEDC /* LaunchScreen.storyboard */; };
+		BDB5C27121467BC500FDBEDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C27021467BC500FDBEDC /* main.m */; };
+		BDB5C27B21467BC500FDBEDC /* tableViewDoubleScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C27A21467BC500FDBEDC /* tableViewDoubleScrollTests.m */; };
+		BDB5C28621467BC500FDBEDC /* tableViewDoubleScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB5C28521467BC500FDBEDC /* tableViewDoubleScrollUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB5C27721467BC500FDBEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB5C25621467BC300FDBEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB5C25D21467BC300FDBEDC;
+			remoteInfo = tableViewDoubleScroll;
+		};
+		BDB5C28221467BC500FDBEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB5C25621467BC300FDBEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB5C25D21467BC300FDBEDC;
+			remoteInfo = tableViewDoubleScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB5C25E21467BC300FDBEDC /* tableViewDoubleScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewDoubleScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB5C26121467BC300FDBEDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDB5C26221467BC300FDBEDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDB5C26421467BC300FDBEDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDB5C26521467BC300FDBEDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDB5C26821467BC300FDBEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB5C26A21467BC500FDBEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB5C26D21467BC500FDBEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB5C26F21467BC500FDBEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB5C27021467BC500FDBEDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDB5C27621467BC500FDBEDC /* tableViewDoubleScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewDoubleScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB5C27A21467BC500FDBEDC /* tableViewDoubleScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewDoubleScrollTests.m; sourceTree = "<group>"; };
+		BDB5C27C21467BC500FDBEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB5C28121467BC500FDBEDC /* tableViewDoubleScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewDoubleScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB5C28521467BC500FDBEDC /* tableViewDoubleScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewDoubleScrollUITests.m; sourceTree = "<group>"; };
+		BDB5C28721467BC500FDBEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB5C25B21467BC300FDBEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C27321467BC500FDBEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C27E21467BC500FDBEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB5C25521467BC300FDBEDC = {
+			isa = PBXGroup;
+			children = (
+				BDB5C26021467BC300FDBEDC /* tableViewDoubleScroll */,
+				BDB5C27921467BC500FDBEDC /* tableViewDoubleScrollTests */,
+				BDB5C28421467BC500FDBEDC /* tableViewDoubleScrollUITests */,
+				BDB5C25F21467BC300FDBEDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB5C25F21467BC300FDBEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5C25E21467BC300FDBEDC /* tableViewDoubleScroll.app */,
+				BDB5C27621467BC500FDBEDC /* tableViewDoubleScrollTests.xctest */,
+				BDB5C28121467BC500FDBEDC /* tableViewDoubleScrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB5C26021467BC300FDBEDC /* tableViewDoubleScroll */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5C26121467BC300FDBEDC /* AppDelegate.h */,
+				BDB5C26221467BC300FDBEDC /* AppDelegate.m */,
+				BDB5C26421467BC300FDBEDC /* ViewController.h */,
+				BDB5C26521467BC300FDBEDC /* ViewController.m */,
+				BDB5C26721467BC300FDBEDC /* Main.storyboard */,
+				BDB5C26A21467BC500FDBEDC /* Assets.xcassets */,
+				BDB5C26C21467BC500FDBEDC /* LaunchScreen.storyboard */,
+				BDB5C26F21467BC500FDBEDC /* Info.plist */,
+				BDB5C27021467BC500FDBEDC /* main.m */,
+			);
+			path = tableViewDoubleScroll;
+			sourceTree = "<group>";
+		};
+		BDB5C27921467BC500FDBEDC /* tableViewDoubleScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5C27A21467BC500FDBEDC /* tableViewDoubleScrollTests.m */,
+				BDB5C27C21467BC500FDBEDC /* Info.plist */,
+			);
+			path = tableViewDoubleScrollTests;
+			sourceTree = "<group>";
+		};
+		BDB5C28421467BC500FDBEDC /* tableViewDoubleScrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5C28521467BC500FDBEDC /* tableViewDoubleScrollUITests.m */,
+				BDB5C28721467BC500FDBEDC /* Info.plist */,
+			);
+			path = tableViewDoubleScrollUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB5C25D21467BC300FDBEDC /* tableViewDoubleScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB5C28A21467BC500FDBEDC /* Build configuration list for PBXNativeTarget "tableViewDoubleScroll" */;
+			buildPhases = (
+				BDB5C25A21467BC300FDBEDC /* Sources */,
+				BDB5C25B21467BC300FDBEDC /* Frameworks */,
+				BDB5C25C21467BC300FDBEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tableViewDoubleScroll;
+			productName = tableViewDoubleScroll;
+			productReference = BDB5C25E21467BC300FDBEDC /* tableViewDoubleScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB5C27521467BC500FDBEDC /* tableViewDoubleScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB5C28D21467BC500FDBEDC /* Build configuration list for PBXNativeTarget "tableViewDoubleScrollTests" */;
+			buildPhases = (
+				BDB5C27221467BC500FDBEDC /* Sources */,
+				BDB5C27321467BC500FDBEDC /* Frameworks */,
+				BDB5C27421467BC500FDBEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB5C27821467BC500FDBEDC /* PBXTargetDependency */,
+			);
+			name = tableViewDoubleScrollTests;
+			productName = tableViewDoubleScrollTests;
+			productReference = BDB5C27621467BC500FDBEDC /* tableViewDoubleScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDB5C28021467BC500FDBEDC /* tableViewDoubleScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB5C29021467BC500FDBEDC /* Build configuration list for PBXNativeTarget "tableViewDoubleScrollUITests" */;
+			buildPhases = (
+				BDB5C27D21467BC500FDBEDC /* Sources */,
+				BDB5C27E21467BC500FDBEDC /* Frameworks */,
+				BDB5C27F21467BC500FDBEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB5C28321467BC500FDBEDC /* PBXTargetDependency */,
+			);
+			name = tableViewDoubleScrollUITests;
+			productName = tableViewDoubleScrollUITests;
+			productReference = BDB5C28121467BC500FDBEDC /* tableViewDoubleScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB5C25621467BC300FDBEDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "信昊";
+				TargetAttributes = {
+					BDB5C25D21467BC300FDBEDC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BDB5C27521467BC500FDBEDC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BDB5C25D21467BC300FDBEDC;
+					};
+					BDB5C28021467BC500FDBEDC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BDB5C25D21467BC300FDBEDC;
+					};
+				};
+			};
+			buildConfigurationList = BDB5C25921467BC300FDBEDC /* Build configuration list for PBXProject "tableViewDoubleScroll" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB5C25521467BC300FDBEDC;
+			productRefGroup = BDB5C25F21467BC300FDBEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB5C25D21467BC300FDBEDC /* tableViewDoubleScroll */,
+				BDB5C27521467BC500FDBEDC /* tableViewDoubleScrollTests */,
+				BDB5C28021467BC500FDBEDC /* tableViewDoubleScrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB5C25C21467BC300FDBEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB5C26E21467BC500FDBEDC /* LaunchScreen.storyboard in Resources */,
+				BDB5C26B21467BC500FDBEDC /* Assets.xcassets in Resources */,
+				BDB5C26921467BC300FDBEDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C27421467BC500FDBEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C27F21467BC500FDBEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB5C25A21467BC300FDBEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB5C26621467BC300FDBEDC /* ViewController.m in Sources */,
+				BDB5C27121467BC500FDBEDC /* main.m in Sources */,
+				BDB5C26321467BC300FDBEDC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C27221467BC500FDBEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB5C27B21467BC500FDBEDC /* tableViewDoubleScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB5C27D21467BC500FDBEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB5C28621467BC500FDBEDC /* tableViewDoubleScrollUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB5C27821467BC500FDBEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB5C25D21467BC300FDBEDC /* tableViewDoubleScroll */;
+			targetProxy = BDB5C27721467BC500FDBEDC /* PBXContainerItemProxy */;
+		};
+		BDB5C28321467BC500FDBEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB5C25D21467BC300FDBEDC /* tableViewDoubleScroll */;
+			targetProxy = BDB5C28221467BC500FDBEDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDB5C26721467BC300FDBEDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB5C26821467BC300FDBEDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB5C26C21467BC500FDBEDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB5C26D21467BC500FDBEDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB5C28821467BC500FDBEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDB5C28921467BC500FDBEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB5C28B21467BC500FDBEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tableViewDoubleScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.tableViewDoubleScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB5C28C21467BC500FDBEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tableViewDoubleScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.tableViewDoubleScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDB5C28E21467BC500FDBEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tableViewDoubleScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.tableViewDoubleScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableViewDoubleScroll.app/tableViewDoubleScroll";
+			};
+			name = Debug;
+		};
+		BDB5C28F21467BC500FDBEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tableViewDoubleScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.tableViewDoubleScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableViewDoubleScroll.app/tableViewDoubleScroll";
+			};
+			name = Release;
+		};
+		BDB5C29121467BC500FDBEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tableViewDoubleScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.tableViewDoubleScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tableViewDoubleScroll;
+			};
+			name = Debug;
+		};
+		BDB5C29221467BC500FDBEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tableViewDoubleScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.tableViewDoubleScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tableViewDoubleScroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB5C25921467BC300FDBEDC /* Build configuration list for PBXProject "tableViewDoubleScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB5C28821467BC500FDBEDC /* Debug */,
+				BDB5C28921467BC500FDBEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB5C28A21467BC500FDBEDC /* Build configuration list for PBXNativeTarget "tableViewDoubleScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB5C28B21467BC500FDBEDC /* Debug */,
+				BDB5C28C21467BC500FDBEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB5C28D21467BC500FDBEDC /* Build configuration list for PBXNativeTarget "tableViewDoubleScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB5C28E21467BC500FDBEDC /* Debug */,
+				BDB5C28F21467BC500FDBEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB5C29021467BC500FDBEDC /* Build configuration list for PBXNativeTarget "tableViewDoubleScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB5C29121467BC500FDBEDC /* Debug */,
+				BDB5C29221467BC500FDBEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB5C25621467BC300FDBEDC /* Project object */;
+}
